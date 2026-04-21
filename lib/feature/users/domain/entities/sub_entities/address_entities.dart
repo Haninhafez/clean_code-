@@ -9,4 +9,6 @@ class AddressEntities {
 
   AddressEntities({required this.street, required this.suite, required this.city, required this.zipcode, required this.geo});
 
+  toJson() {}
+
 }

@@ -3,5 +3,7 @@ class GeoEntities {
   final String lng;
 
   GeoEntities({required this.lat, required this.lng});
+
+  toJson() {}
  
 }
